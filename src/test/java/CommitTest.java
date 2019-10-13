@@ -6,11 +6,13 @@ import static org.junit.Assert.assertEquals;
 public class CommitTest {
 
     private Commit commit1;
+    private Commit commit2;
 
     @Before
     public void before(){
 
         commit1 = new Commit(1, CommitType.FEATURE, "initial commit");
+        commit2 = new Commit(2, CommitType.FEATURE, "initial commit");
     }
 
     @Test
