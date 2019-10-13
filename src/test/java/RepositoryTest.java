@@ -10,7 +10,7 @@ public class RepositoryTest {
     @Before
     public void before(){
 
-        repository1 = new Repository("javarepo1", "Repo1 Description");
+        repository1 = new Repository("javarepo1", "Repo1 Description", RepositoryType.PUBLIC);
     }
 
     @Test
@@ -21,5 +21,10 @@ public class RepositoryTest {
     @Test
     public void canGetRepositoryDescripion(){
         assertEquals("Repo1 Description", repository1.getRepositoryDescription());
+    }
+
+    @Test
+    public void canGetRepositoryType(){
+        assertEquals(RepositoryType.PUBLIC, repository1.getRepositoryType());
     }
 }
