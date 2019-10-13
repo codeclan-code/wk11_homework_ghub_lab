@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1e097311-a204-4e4b-af5f-630e0f0b9672" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GitHubAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Commit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Commit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CommitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GitHubAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GitHubAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GitHubAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Repository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CommitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CommitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/GitHubAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GitHubAccountTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/RepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RepositoryTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RepositoryTest.canGetRepositoryByName">
+  <component name="RunManager" selected="JUnit.RepositoryTest.canGetCommitById">
     <configuration name="All in github_cc_homework_131019" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="github_cc_homework_131019" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,11 +82,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepositoryTest.canAddCommit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RepositoryTest.canGetCommitById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="github_cc_homework_131019" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RepositoryTest" />
-      <option name="METHOD_NAME" value="canAddCommit" />
+      <option name="METHOD_NAME" value="canGetCommitById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RepositoryTest.canGetCommitById" />
         <item itemvalue="JUnit.RepositoryTest.canGetRepositoryByName" />
         <item itemvalue="JUnit.GitHubAccountTest.canUpgradeAccountType" />
         <item itemvalue="JUnit.GitHubAccountTest.canDownGradeAccountType" />
         <item itemvalue="JUnit.All in github_cc_homework_131019" />
-        <item itemvalue="JUnit.RepositoryTest.canAddCommit" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570968840764</updated>
-      <workItem from="1570968843184" duration="9497000" />
+      <workItem from="1570968843184" duration="10883000" />
     </task>
     <servers />
   </component>

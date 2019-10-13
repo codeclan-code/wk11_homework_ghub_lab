@@ -45,4 +45,10 @@ public class RepositoryTest {
     public void canGetRepositoryByName(){
         assertEquals("javarepo2", repository2.getRepositoryName());
     }
+
+    @Test
+    public void canGetCommitById(){
+        commit2 = new Commit(2, CommitType.REFACTOR, "initial commit");
+        assertEquals(2, commit2.getCommitUniqueID());
+    }
 }

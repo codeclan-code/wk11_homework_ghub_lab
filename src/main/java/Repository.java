@@ -29,7 +29,10 @@ public class Repository {
     public void addCommit(Commit commit){
         this.commits.add(commit);
     }
+
     public int getCommitCount() {
         return this.commits.size();
     }
+
+
 }

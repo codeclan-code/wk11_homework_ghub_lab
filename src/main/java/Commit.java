@@ -12,8 +12,8 @@ public class Commit {
 
     public int getCommitUniqueID() {
         return this.commituniqueid;
-
     }
+
     public CommitType getCommitType() {
         return this.committype;
     }
